@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1RRtX6H8OfvivvvGJlo28tU+N0bMdPPc7qEB5NmSVpqJyi6KzvLeWpwtbHxRKpP1n5aSEV123HI/uei28mqGuw==",
+  "dgSpecHash": "Z9Bp/KEDgjNC1TMVM1rPh0OsxBYh1tSLO6PW3avmyZYl9fO4xyuT7Dat6F+pM90WxvxH7sGDvuHczbdjyKlZaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\melod\\OneDrive - Vancouver Community College\\Desktop\\2110-A1\\2110\\2110\\2110.csproj",
+  "projectFilePath": "C:\\Users\\melod\\OneDrive - Vancouver Community College\\Desktop\\2110\\CST2110\\2110-A1\\2110\\2110\\2110.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\melod\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\melod\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -18,8 +18,37 @@ namespace _2110.DataAccess
             this.readConfiguration = readConfiguration;
         }
 
+        //EMPLOYEE LIST
+        public List<Employee> GetEmployee(string idFilter)
+        {
+            var employees = new List<Employee>();
+            var sqlConnection = GetConnection();
 
-        public void Add(Employee employee)
+            string sqlUpdate = $"SELECT * FROM STUDENT WHERE ID = '{idFilter}'";
+
+            SqlCommand sqlCommand = new SqlCommand(sqlUpdate, sqlConnection);
+            sqlConnection.Open();
+            var reader = sqlCommand.ExecuteReader();
+            while (reader.Read())
+            {
+                var employee = new Employee()
+                {
+                    ID = reader.GetString(0),
+                    Name = reader.GetString(1)
+                };
+                employees.Add(employee);
+            }
+            sqlCommand.ExecuteNonQuery();
+            sqlConnection.Close();
+
+            return employees;
+
+        }
+
+    
+
+    //ADD EMPLOYEE
+    public void Add(Employee employee)
         {
             var sqlConnection = GetConnection();
 
@@ -34,6 +63,7 @@ namespace _2110.DataAccess
             Console.WriteLine("Employee added");
         }
 
+        //DELETE EMPLOYEE BY ID
         public void Delete(string id)
         {
             var sqlConnection = GetConnection();
@@ -50,6 +80,7 @@ namespace _2110.DataAccess
 
         }
 
+        //GET EMPLOYEE BY ID
         public Employee Get (string idFilter)
         {
             var sqlConnection = GetConnection();
@@ -76,6 +107,23 @@ namespace _2110.DataAccess
 
         }
 
+        //UPDATE EMPLOYEE
+        public void Update(Employee employee)
+        {
+            var sqlConnection = GetConnection();
+
+            string sqlUpdate = $"UPDATE Employee VALUES ('{employee.ID}','{employee.Name}')";
+
+            SqlCommand sqlCommand = new SqlCommand(sqlUpdate, sqlConnection);
+
+            sqlConnection.Open();
+            sqlCommand.ExecuteNonQuery();
+            sqlConnection.Close();
+
+            Console.WriteLine("Employee updated");
+        }
+
+
 
 
         private SqlConnection GetConnection()
@@ -92,3 +140,4 @@ namespace _2110.DataAccess
         }
     }
 }
+

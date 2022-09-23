@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\melod\\OneDrive - Vancouver Community College\\Desktop\\2110-A1\\2110\\2110\\2110.csproj": {}
+    "C:\\Users\\melod\\OneDrive - Vancouver Community College\\Desktop\\2110\\CST2110\\2110-A1\\2110\\2110\\2110.csproj": {}
   },
   "projects": {
-    "C:\\Users\\melod\\OneDrive - Vancouver Community College\\Desktop\\2110-A1\\2110\\2110\\2110.csproj": {
+    "C:\\Users\\melod\\OneDrive - Vancouver Community College\\Desktop\\2110\\CST2110\\2110-A1\\2110\\2110\\2110.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\melod\\OneDrive - Vancouver Community College\\Desktop\\2110-A1\\2110\\2110\\2110.csproj",
+        "projectUniqueName": "C:\\Users\\melod\\OneDrive - Vancouver Community College\\Desktop\\2110\\CST2110\\2110-A1\\2110\\2110\\2110.csproj",
         "projectName": "2110",
-        "projectPath": "C:\\Users\\melod\\OneDrive - Vancouver Community College\\Desktop\\2110-A1\\2110\\2110\\2110.csproj",
+        "projectPath": "C:\\Users\\melod\\OneDrive - Vancouver Community College\\Desktop\\2110\\CST2110\\2110-A1\\2110\\2110\\2110.csproj",
         "packagesPath": "C:\\Users\\melod\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melod\\OneDrive - Vancouver Community College\\Desktop\\2110-A1\\2110\\2110\\obj\\",
+        "outputPath": "C:\\Users\\melod\\OneDrive - Vancouver Community College\\Desktop\\2110\\CST2110\\2110-A1\\2110\\2110\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
